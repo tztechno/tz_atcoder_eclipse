@@ -1,3 +1,5 @@
 # tz_atcoder_eclipse
 
-https://github.com/eclipse/eclipse-collections
+https://github.com/eclipse/
+
+https://www.eclipse.org/
