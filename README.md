@@ -3,3 +3,5 @@
 https://github.com/eclipse/
 
 https://www.eclipse.org/
+
+https://eclipseclp.org/
