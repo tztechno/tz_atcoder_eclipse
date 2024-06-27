@@ -34,7 +34,10 @@ https://eclipseclp.org/
 ```
 ---
 ```
-
+main プロシージャの前に :- export main/0. を追加しました。
+これにより、main プロシージャがモジュールの外部から呼び出し可能になります。
+:- export main/0.
+main :-
 ```
 ---
 ```
