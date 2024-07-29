@@ -6,6 +6,7 @@ https://www.eclipse.org/
 
 https://eclipseclp.org/
 
+
 ### latest
 
 ---
@@ -30,7 +31,16 @@ https://eclipseclp.org/
 ```
 ---
 ```
-
+main :-
+    read_str(S),
+    ( 
+        S = "A" -> Ans = "T";
+        S = "T" -> Ans = "A";
+        S = "C" -> Ans = "G";
+        S = "G" -> Ans = "C";        
+        Ans = "Invalid input" 
+    ),
+    write(Ans), 
 ```
 ---
 ```
